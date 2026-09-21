@@ -9,5 +9,10 @@ Sistema web desenvolvido para a organização de rotinas, horários de estudo e 
 ## Status do Projeto
 🚧 **Em Desenvolvimento**
 
+- Atualmente, o site pode ser visualizado apenas em computadores, e alguns elementos podem apresentar alterações dependendo do tamanho do monitor. A adaptação do CSS para celulares e diferentes resoluções de tela está sendo trabalhada, o que pode levar algum tempo devido ao tamanho dos arquivos.
+- No momento, o projeto conta principalmente com o layout da aplicação, que também continuará sendo aprimorado. Estruturas como banco de dados ainda estão em fase de estudo e planejamento.
+- O projeto está sendo desenvolvido com o objetivo de adicionar novas ferramentas e funcionalidades futuramente.
+
+
 ## 🌐 Acesso ao Projeto
 Você pode ver o site funcionando através do GitHub Pages: [(https://stellar-starlight.github.io/studium-routines/)]
