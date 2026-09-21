@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eventos.css">
+    <title>Studium Routine - Adicionar Evento</title>
+</head>
+<body>
+    <header class="topo">
+        <div class="logo">Studium Routine</div>
+        <div class="saudacao-usuario">
+            <p>(nome do usuário)</p>
+            <div class="foto-perfil-topo"></div>
+        </div>
+    </header>
+
+    <main class="pagina-container">
+        <div class="formulario-card">
+            <a href="routines.html" class="botao-fechar">×</a>
+
+            <form class="formulario-campos">
+                <div class="formulario-titulo-linha">
+                    <input type="text" value="Adicionar Título" class="input-titulo-principal">
+                    <div class="linha-titulo"></div>
+                </div>
+
+                <div class="campo-linha">
+                    <img src="img/data.png" alt="Data" class="icone-campo">
+                    <input type="date" value="2026-09-09" class="input-texto">
+                    <input type="text" value="14:00 – 15:00" class="input-caixa">
+                </div>
+
+                <div class="campo-linha">
+                    <img src="img/alarme.png" alt="Alarme" class="icone-campo">
+                    <input type="number" value="10" class="input-caixa input-pequeno">
+                    <p class="texto-valor">Minutos</p>
+                </div>
+
+                <div class="campo-linha">
+                    <img src="img/repetir.png" alt="Repetição" class="icone-campo">
+                    <select class="input-caixa">
+                        <option>Não se repete</option>
+                        <option>Todos os dias</option>
+                        <option>Toda semana</option>
+                    </select>
+                </div>
+
+                <div class="campo-linha campo-descricao">
+                    <img src="img/descricao.png" alt="Descrição" class="icone-campo">
+                    <textarea placeholder="Adicionar Descrição" class="input-textarea"></textarea>
+                </div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

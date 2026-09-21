@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nova-tarefa.css">
+    <title>Adicionar Tarefa</title>
+</head>
+<body>
+
+    <div class="fundo-pagina">
+        <header class="topo">
+            <div class="logo">Studium Routine</div>
+            <div class="saudacao-usuario">
+                <p>(nome do usuário)</p>
+                <div class="foto-perfil-topo"></div>
+            </div>
+        </header>
+
+        <main class="conteudo-principal">
+            <div class="cabecalho-secao">
+                <a href="tarefas.html" class="botao-voltar">
+                    <img src="img/seta.png" alt="Voltar">
+                </a>
+                <div class="titulo-icone">
+                    <img src="img/caderno1.png" alt="Caderno" class="icone">
+                    <h1>Minhas Tarefas</h1>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="caixa-fundo">
+        <div class="caixa-principal">
+            
+            <a href="tarefas.html" class="botao-fechar">×</a>
+
+            <form action="tarefas.html" class="formulario-tarefa">
+                
+                <div class="grupo-input">
+                    <input type="text" placeholder="Nome da Matéria" class="input-titulo" required>
+                </div>
+
+                <hr class="linha">
+
+                <div class="grupo-campo">
+                    <label class="texto-azul">Descrição:</label>
+                    <input type="text" placeholder="Adicionar descrição da tarefa" class="input-texto" required>
+                </div>
+
+                <hr class="linha">
+
+                <div class="grupo-campo">
+                    <label class="texto-azul">Data de Conclusão:</label>
+                    <input type="date" class="input-data" required>
+                </div>
+
+                <hr class="linha">
+
+                <div class="grupo-campo">
+                    <label class="texto-azul">Prioridade:</label>
+                    <select class="input-select">
+                        <option value="normal">Normal</option>
+                        <option value="urgente">Urgente</option>
+                    </select>
+                </div>
+
+                <div class="rodape-formulario">
+                    <button type="submit" class="botao-salvar">Salvar Tarefa</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>

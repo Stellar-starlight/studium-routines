@@ -1,0 +1,175 @@
+body {
+    background: #ffffff;
+    font-family: 'Irish Grover', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.topo {
+    background-color: #70e4df;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0358A5;
+}
+
+.saudacao-usuario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 0.95rem;
+    color: #0b4f6c;
+    font-weight: bold;
+}
+
+.foto-perfil-topo {
+    width: 35px;
+    height: 35px;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+}
+
+.pomodoro-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.header-secao {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.botao-voltar {
+   position: fixed;
+    top: 90px;
+    left: 20px;
+    margin: 0;
+}
+
+.botao-voltar img {
+    width: 30px;
+}
+
+.titulo-com-icone {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.icone-titulo {
+    width: 40px;
+    height: auto;
+}
+
+.titulo-com-icone h1 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0;
+}
+
+.card-pomodoro {
+    background: linear-gradient(135deg, #7EE4F0, #48838A);
+    width: 100%;
+    max-width: 650px;
+    height: 420px;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 35px;
+    box-sizing: border-box;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.botoes-modo {
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.modo {
+    background-color: #ffffff66;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: 'Irish Grover', sans-serif;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-decoration: none; 
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modo.ativo,
+.modo:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0b4f6c;
+}
+
+.tempo-display {
+    font-size: 4.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.play {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    width: 160px;
+    padding: 15px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-family: 'Irish Grover', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rodape-projeto {
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rodape-projeto p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #555;
+    font-family: 'Irish Grover', sans-serif;
+}
+
+.rodape-projeto a {
+    color: #0358A5;
+    text-decoration: none;
+}

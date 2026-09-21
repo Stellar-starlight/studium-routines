@@ -1,0 +1,209 @@
+body {
+    background: #ffffff;
+    font-family: 'Irish Grover', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.topo {
+    background-color: #70e4df;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0358A5;
+}
+
+.saudacao-usuario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 0.95rem;
+    color: #0b4f6c;
+    font-weight: bold;
+}
+
+.foto-perfil-topo {
+    width: 35px;
+    height: 35px;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+}
+
+.tarefas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-secao {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+    justify-content: center;
+}
+
+.botao-voltar {
+    position: absolute;
+    left: 0;
+    text-decoration: none;
+}
+
+.botao-voltar img {
+    width: 30px;
+}
+
+.titulo-com-icone {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icone-titulo {
+    width: 35px;
+    height: auto;
+}
+
+.titulo-com-icone h1 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0;
+}
+
+.acoes-topo {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+}
+
+.item-acao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #444;
+    text-align: center;
+    max-width: 80px;
+}
+
+.img-acao {
+   width: 35px;       
+    height: 35px;     
+    object-fit: contain;
+}
+
+.card-tarefa {
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 750px;
+    border-radius: 15px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 12px #0000000f;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.tarefa-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarefa-topo h2 {
+    font-size: 1.1rem;
+    color: #222;
+    margin: 0;
+}
+
+.descartar img {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+
+.linha-tarefa {
+    border: none;
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 0;
+}
+
+.tarefa-descricao {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.tarefa-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #555;
+    gap: 15px;
+}
+
+.info-data {
+    display: flex;
+    gap: 25px;
+}
+
+.status-pendente {
+    color: #06b6d4;
+    font-weight: bold;
+}
+
+.acao-concluir {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: #333;
+    white-space: nowrap;
+}
+
+.acao-concluir input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.item-acao-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer;
+    max-width: 80px;
+    text-align: center;
+}
+
+.item-acao-link p {
+    margin: 5px 0 0 0;
+    font-size: 0.8rem;
+    color: #444;
+}
+

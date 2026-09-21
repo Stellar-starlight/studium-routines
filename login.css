@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(to bottom, #ffffff, #D0EAF0ff);
+    font-family: 'Irish Grover', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    margin-bottom: 20px;
+}
+
+.botao-voltar {
+    display: inline-block;
+    margin: 20px 0 0 40px; 
+}
+
+.icone-seta {
+    width: 35px;
+    height: auto;
+}
+
+.topo {
+    background-color: #70e4df;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0358A5;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    width: 100%;
+    min-height: calc(100vh - 60px); 
+    box-sizing: border-box;
+}
+
+.card-login {
+    background: linear-gradient(to bottom, #D0EAF0, #ffffff);
+    padding: 40px 50px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px #0000000d;
+    width: 100%;
+    max-width: 500px;
+}
+
+.titulo-login {
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    color: #5c4033; 
+    font-size: 32px;
+    margin-bottom: 35px;
+    font-weight: normal;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.campo label {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    padding: 12px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    background-color: #fdfdfd;
+    transition: border-color 0.2s;
+}
+
+.campo input:focus {
+    border-color: #70c1b3;
+}
+
+.esqueci-senha {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #888888;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+
+.esqueci-senha:hover {
+    text-decoration: underline;
+}
+
+.entrar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #bce3ec; 
+    color: #2c3e50;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+
+.separador-ou {
+    text-align: center;
+    color: #777777;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.social:hover {
+    background-color: #f8f9fa;
+}
+
+.icone-social {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.social img.icone-google {
+    width: 30px;
+    height: 30px;
+}
+
+.social img.icone-apple {
+    width: 30px;
+    height: 30px;
+}

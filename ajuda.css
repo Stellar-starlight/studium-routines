@@ -1,0 +1,78 @@
+body {
+    
+    background: linear-gradient(to bottom, #D0EAF0, #ffffff);
+    font-family:'Irish Grover', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    margin-bottom: 20px;
+}
+
+.botao-voltar {
+    display: inline-block;
+    margin: 20px 0 0 40px; 
+}
+
+.icone-seta {
+    width: 35px;
+    height: auto;
+}
+
+.topo {
+    background-color: #70e4df;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0358A5;
+}
+
+.principal li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.titulo {
+     font-size: 2.2rem;
+    color: #0358A5;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+ font-size: 2.2rem;
+    color: #0358A5;
+    font-size: 19px;
+    margin-bottom: 0px;
+    padding: 30px 40px;
+    
+}
+
+.rodape-projeto {
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rodape-projeto p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #555;
+    font-family: 'Irish Grover', sans-serif;
+}
+
+.rodape-projeto a {
+    color: #0358A5;
+    text-decoration: none;
+}

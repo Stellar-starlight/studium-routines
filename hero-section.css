@@ -1,0 +1,157 @@
+
+body {
+    
+    background: linear-gradient(to bottom, #D0EAF0, #ffffff);
+    font-family:'Irish Grover', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+.topo {
+    background-color: #70e4df;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0358A5;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0b4f6c;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.conteudo-principal {
+    max-width: 500px;
+}
+
+.titulo {
+    font-size: 2.2rem;
+    color: #111;
+}
+
+.texto {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.link-comecar {
+    background-color: #4fe3d3;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 4px 6px #0000001a;
+}
+
+.imagem-principal img {
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px #00000026;
+}
+
+.secao-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 260px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 15px #00000014; 
+}
+
+.icone {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.icone-caderno {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.titulo-card {
+    font-size: 1.2rem;
+    color: #0b4f6c;
+    margin-bottom: 10px;
+}
+
+.texto-card {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.rodape {
+    background-color: #70e4df;
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 15px;             
+}
+
+.rodape .link {
+    background-color: #ffffff;
+    color: #0b4f6c;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #00000014;
+    width: 280px;           
+    display: inline-block;
+}
+
+.rodape-projeto {
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rodape-projeto p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #555;
+    font-family: 'Irish Grover', sans-serif;
+}
+
+.rodape-projeto a {
+    color: #0358A5;
+    text-decoration: none;
+}
